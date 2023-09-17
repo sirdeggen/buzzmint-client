@@ -1,6 +1,6 @@
 {
   "name": "buzzmint-client",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Buzzmint Client for third party token verification.",
   "main": "dist/main.js",
   "scripts": {
