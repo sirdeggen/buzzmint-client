@@ -1,0 +1,31 @@
+{
+  "name": "buzzmint-client",
+  "version": "0.0.1",
+  "description": "Buzzmint Client for verification of tokens.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode production",
+    "dev": "webpack --mode development"
+  },
+  "author": "sirdeggen",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "latest",
+    "babel-loader": "latest",
+    "babel-preset-env": "latest",
+    "webpack": "latest",
+    "webpack-cli": "latest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sirdeggen/buzzmint-client.git"
+  },
+  "keywords": [
+    "buzzmint"
+  ],
+  "bugs": {
+    "url": "https://github.com/sirdeggen/buzzmint-client/issues"
+  },
+  "homepage": "https://github.com/sirdeggen/buzzmint-client#readme"
+}
