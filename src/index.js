@@ -1,5 +1,5 @@
 class BuzzmintClient {
-    constructor(div, { mintId, onSuccess, onError, host = 'https://buzzmint.io' }) {
+    constructor(div, { mintId, onSuccess, onError, host = 'https://app.buzzmint.io' }) {
         if (!mintId || typeof mintId !== 'string') throw new Error('mintId is required, and must be a string')
         if (!onSuccess || typeof onSuccess !== 'function') throw new Error('onSuccess callback function is required')
         if (!onError || typeof onError !== 'function') throw new Error('onError callback function is required')

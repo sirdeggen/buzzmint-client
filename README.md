@@ -19,6 +19,7 @@ Place this in the body of an html document.
 <script>
     const bm = window.document.getElementById('buzzmint')
     new BuzzmintClient(bm, {
+        host: 'https://app.buzzmint.io',
         mintId: 'replace-with-your-mint-id',
         onSuccess: function (response) {
             // handle tokens which belong to the user who is browsing your website
@@ -36,6 +37,7 @@ You could check multiple mintIds simply by making multiple Clients with differen
 
 ```javascript
 new BuzzmintClient(bm, {
+    host: 'https://app.buzzmint.io',
     mintId: 'your-mint-id-2',
     onSuccess: function (response) {
         // handle tokens which belong to the user who is browsing your website
