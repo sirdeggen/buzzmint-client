@@ -27,5 +27,8 @@
   "bugs": {
     "url": "https://github.com/sirdeggen/buzzmint-client/issues"
   },
-  "homepage": "https://github.com/sirdeggen/buzzmint-client#readme"
+  "homepage": "https://github.com/sirdeggen/buzzmint-client#readme",
+  "dependencies": {
+    "np": "^8.0.4"
+  }
 }
